@@ -1,7 +1,7 @@
 import React from "react";
 
 function Stock({stock, handlePortfolio}) {
-  const {ticker, name, type, price, id} = stock
+  const {ticker, name, price} = stock
 
   return (
     <div>
